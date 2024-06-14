@@ -48,3 +48,7 @@ if ($modalElement) {
 ## License
 
 This project is open-source under the MIT license.
+
+## Sources and examples
+https://github.com/themesberg/landwind
+https://www.tailwindawesome.com/resources/landwind
