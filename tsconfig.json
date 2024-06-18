@@ -8,8 +8,11 @@
       "module": "commonjs",
       "target": "es5",
       "allowJs": true,
-      "moduleResolution": "node"
+      "moduleResolution": "node",
+
+
+
   },
   "include": ["src/**/*.ts*"],
-  "exclude": ["node_modules", "dist", "lib"]
+  "exclude": ["node_modules", "dist", "lib", "src/scripts/tiny-slider.js"]
 }

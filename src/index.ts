@@ -10,3 +10,6 @@ import './tabs';
 import './modal';
 import './tooltip';
 import './input-counter';
+
+//import './scripts/tiny-slider.js';
+import './scripts/slider.js';

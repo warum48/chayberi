@@ -13,7 +13,8 @@ module.exports = {
       },
       fontFamily: {
         'montserrat': ['Montserrat'],// ...defaultTheme.fontFamily.sans],
-        'inter': ['Inter']//, ...defaultTheme.fontFamily.sans]
+        'inter': ['Inter'],//, ...defaultTheme.fontFamily.sans],
+        'marianna' : ['Marianna']
       }
     },
     colors: {

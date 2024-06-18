@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Marianna';
+    src: url('./fonts/marianna.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@layer components {
+    .px-section {
+      @apply px-[70px];
+    }
+    .btn-primary {
+      @apply h-[45px]  focus:outline-none text-white text-xs bg-yellowfish-orange hover:bg-yellow-500  font-medium rounded-lg text-sm px-2 py-2.5  mb-2;
+    }
+  }
