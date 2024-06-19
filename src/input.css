@@ -8,6 +8,12 @@
     font-weight: 400;
 }
 
+@layer base {
+  html {
+    @apply text-fuscuos-gray;
+  } 
+}
+
 @layer components {
     .px-section {
       @apply px-[70px];
