@@ -9,26 +9,27 @@
     <title>Landwind - Tailwind CSS Landing Page Demo</title>
 
     <!-- Meta SEO -->
-    <meta name="title" content="Landwind - Tailwind CSS Landing Page">
+    <meta name="title" content="Чайбери">
     <meta name="description"
-        content="Get started with a free and open-source landing page built with Tailwind CSS and the Flowbite component library.">
+        content="Чайбери - это лучший магазин чая.">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="author" content="Themesberg">
+    <meta name="language" content="Russian">
+    <meta name="author" content="Chaiberry">
 
     <!-- Social media share -->
-    <meta property="og:title" content="Landwind - Tailwind CSS Landing Page">
-    <meta property="og:site_name" content="Themesberg">
-    <meta property="og:url" content="https://https://demo.themesberg.com/landwind/">
+    <meta property="og:title" content="Чайбери">
+    <meta property="og:site_name" content="Чайбери">
+    <meta property="og:url" content="">
     <meta property="og:description"
-        content="Get started with a free and open-source landing page for Tailwind CSS built with the Flowbite component library featuring dark mode, hero sections, pricing cards, and more.">
+        content="Чайбери - это лучший магазин чая.">
     <meta property="og:type" content="">
     <meta property="og:image"
-        content="https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png">
+        content="">
+        <!--
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@themesberg" />
-    <meta name="twitter:creator" content="@themesberg" />
+    <meta name="twitter:creator" content="@themesberg" />-->
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -49,13 +50,14 @@
     <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
     <link rel="stylesheet" href="./dist/output.css">
     <link rel="stylesheet" href="./dist/tns.css">
+    <!--script src="./dist/scripts/vivus.min.js"></script-->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
-    <div
+    <!--div
         class="absolute w-[1280px] h-[5591px] top-0 z-30 bg-[url('./images/mock/Main_Desktop.jpg')] opacity-30 pointer-events-none">
-    </div>
+    </div-->
     <div w-full>
         <header class="fixed w-full top-0 z-20">
             <nav class="bg-chalet-green border-gray-200  px-[70px] dark:bg-gray-900 ">
@@ -104,8 +106,18 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="absolute w-[135px] h=[135px] left-[50%] top-0"><img src="./dist/images/logo_header.png"
-                            alt="logo" width="130px" height="130px" class="absolute -translate-x-[50%]"></div>
+                    <div class="absolute w-[135px] h=[135px] left-[50%] top-0">
+                        <img src="./dist/images/logo_header.png"
+                            alt="logo" width="130px" height="130px" class="absolute -translate-x-[50%]">
+                            <!--<object id="logo-svg" class="absolute -translate-x-[50%]" type="image/svg+xml" width='116' height='116' data="./dist/images/test-svg-anim.svg"></object>
+                    -->
+
+                    
+
+
+
+
+                        </div>
                     <div class="items-center justify-between hidden w-full lg:flex lg:w-auto gap-2" id="mobile-menu-2">
                         <ul
                             class="flex flex-col mt-4 font-medium text-sm font-montserrat lg:flex-row lg:space-x-10 lg:mt-0">
@@ -187,10 +199,12 @@
                         <div class="text-h2 font-montserrat text-chalet-green  font-bold uppercase">В ЧАЙБЕРИ вы найдете
                             то, что ищете</div>
                         <div class="text-right font-montserrat font-semibold text-sm">ЭТО МЕСТО ДЛЯ ВАС</div>
-                        <div class="-mt-1">если вы в поиске утешения, спокойствия и моментов удовольствия от чашки великолепного
+                        <div class="-mt-1">если вы в поиске утешения, спокойствия и моментов удовольствия от чашки
+                            великолепного
                             чая. </div>
                         <div class="text-right font-montserrat font-semibold text-sm">ЭТО МЕСТО ДЛЯ ВАС</div>
-                        <div class="-mt-1">если вы в поиске утешения, спокойствия и моментов удовольствия от чашки великолепного
+                        <div class="-mt-1">если вы в поиске утешения, спокойствия и моментов удовольствия от чашки
+                            великолепного
                             чая. </div>
                 </div>
                 <div
@@ -199,7 +213,7 @@
                 </div>
         </section>
 
-        <section class="grid grid-cols-12 gap-4 auto-rows-min px-section mt-[100px]">
+        <section class="grid grid-cols-12 gap-4 auto-rows-min px-section mt-[100px] ">
             <!--<svg class="absolute  ml-[-26px]" width="116" height="615" viewBox="0 0 116 615" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -211,23 +225,28 @@
             <!-- <div class="col-span-2 font-montserrat text-xl uppercase font-bold">каталог</div> -->
             <div class="font-montserrat text-xl uppercase font-bold absolute  ml-[96px] -mt-1">каталог</div>
             <div class="absolute justify-self-end font-marianna text-3xl -mt-2">Лето в чашке</div>
-            <div class="col-span-3">space</div>
+            <div class="col-span-3">&nbsp;</div>
             <div class="col-span-3 h-[180px] bg-gray-100 self-end">1</div>
             <div class="col-span-3 h-[290px] bg-gray-100 self-end">2</div>
             <div class="col-span-3 h-[247px] bg-gray-100 self-end">3</div>
 
-            <div class="col-span-4">space</div>
+            <div class="col-span-4">&nbsp;</div>
             <div class="col-span-2 h-[180px] bg-gray-100">1</div>
             <div class="col-span-2 h-[318px] bg-gray-100">2</div>
             <div class="col-span-3 h-[248px] bg-gray-100">3</div>
-            <div class="col-span-1">space</div>
+            <div class="col-span-1"></div>
+
+            <div class="col-span-12 relative "><button
+                    class="btn-primary w-[20%] uppercase absolute top-[-62px] right-0  ">подробнее</button></div>
+
         </section>
-        <section class="px-section mt-[120px]">
+        <section class="px-section mt-[104px] slider1-cont relative">
             <div class="h-[40px] grid grid-cols-12 gap-4 auto-rows-min mb-3">
                 <div class="font-montserrat text-xl uppercase font-bold absolute  ml-[96px] ">бестселлеры</div>
                 <div class="absolute justify-self-end font-marianna text-3xl ">Просто сказка</div>
             </div>
-            <div class="my-slider ">
+            
+            <div class="my-slider relative" >
 
                 <div class="overflow-hidden group">
                     <div class="bg-green-400 =w-full h-full" style="aspect-ratio: 0.99;">111</div>
@@ -271,7 +290,7 @@
                     <div class="font-montserrat text-5xl font-bold uppercase ">Малиновый<br />бархат</div>
                     <div class="absolute mr-1 mt-[51px] text-xs font-semibold ">легенда и ода природе</div>
                 </div>
-                <div class="col-span-3">space</div>
+                <div class="col-span-3">&nbsp;</div>
             </div>
             <div class="h-[340px] grid grid-cols-12 gap-4  z-0">
                 <div class="col-span-6 bg-[url('./images/raspberry_photo.jpg')] "></div>
@@ -281,7 +300,7 @@
             </div>
         </section>
 
-        <section class="px-section mt-[128px]">
+        <section class="px-section mt-[128px] slider2-cont relative">
             <div class="h-[40px] grid grid-cols-12 gap-4 auto-rows-min mb-3">
                 <div class="font-montserrat text-xl uppercase font-bold absolute  ml-[96px] ">Новинки</div>
                 <div class="absolute justify-self-end font-marianna text-3xl ">Самое свежее</div>
@@ -328,28 +347,31 @@
                     fill="#C0C1BC" />
             </svg> -->
             <object data="./dist/images/logo_vertical_gray.svg" width="116" height="615"
-                class="absolute absolute  ml-[-26px]"></object>
+                class="absolute  ml-[-26px]"></object>
+            <div
+                class="absolute ml-[50px] mt-[420px] bg-[url('./images/stamp.png')] w-[127px] h-[127px] bg-cover bg-no-repeat">
+            </div>
             <!-- <div class="col-span-2 font-montserrat text-xl uppercase font-bold">каталог</div> -->
             <div class="font-montserrat text-xl uppercase font-bold absolute  ml-[96px] -mt-1">блог</div>
             <div class="absolute justify-self-end font-marianna text-3xl -mt-2">Растения - людям</div>
 
-            <div class="col-span-2">space</div>
-            <div class="col-span-2">ЧАЙБЕРИ <br />FLORA FEST</div>
+            <div class="col-span-2">&nbsp;</div>
+            <div class="col-span-2 font-montserrat font-bold text-sm leading-4">ЧАЙБЕРИ <br />FLORA FEST</div>
             <div class="col-span-4 h-[282px] bg-gray-100 self-end">1</div>
             <div class="col-span-4 h-[250px] bg-gray-100 self-end">2</div>
 
 
-            <div class="col-span-3">space</div>
+            <div class="col-span-3">&nbsp;</div>
             <div class="col-span-2 self-end text-sm font-montserrat">ЧАЙБЕРИ благодарит всех, кто не&nbsp;упустил шанс
                 погрузиться
                 в&nbsp;мир натуральных ароматов и&nbsp;вкусов,
                 а&nbsp;также узнать все секреты приготовления идеального травяного чая!</div>
-            <div class="col-span-1">space</div>
+            <div class="col-span-1">&nbsp;</div>
             <div class="col-span-2 h-[122px] bg-gray-100">1</div>
             <div class="col-span-3 h-[256px] bg-gray-100">3</div>
-            <div class="col-span-1">space</div>
+            <div class="col-span-1">&nbsp;</div>
 
-            <div class="col-span-2">space</div>
+            <div class="col-span-2">&nbsp;</div>
             <div class="col-span-4 text-sm font-montserrat mt-2">Санкт-Петербург 2024<br />
                 Большой проспект В.О.</div>
             <div class="col-span-6 relative"> <button
@@ -360,31 +382,51 @@
 
         <section class="px-section mt-[124px] bg-contain bg-no-repeat bg-[url('./images/pencil_herb2.png')] bg-right">
             <div class="grid grid-cols-12 gap-4 auto-rows-min">
-                <div class="absolute font-montserrat text-xl uppercase font-bold   ml-[96px] ">Новинки</div>
-                <div class="absolute justify-self-end font-marianna text-3xl ">Самое свежее</div>
+                <div class="absolute font-montserrat text-xl uppercase font-bold   ml-[96px] ">Отзывы</div>
+                
 
-                <div class="col-span-4">space</div>
-                <div class="col-span-4">
-                    <p class="font-montserrat text-2xl font-bold">Чудесные травы&nbsp;и приятное
-                        общение</p>
-                    <div class="grid grid-cols-4 gap-4 auto-rows-min">
-                        <div class="col-span-3">Ольга, благодарю вас за&nbsp;чудесные травы и&nbsp;приятное общение!
-                            Как приятно было получить такую посылку! Все аккуртано упаковано
-                            и&nbsp;оформлено, и&nbsp;еще подарочек положили! Процветания вашему делу и&nbsp;добрых
-                            покупателей!</div>
-                        <div class="col-span-1">Александра</div>
+                <div class="col-span-4">&nbsp;</div>
+                <div class="col-span-4 slider-review-cont">
+                    <div class="reviewSlider ">
+                    <div>
+                        <p class="font-montserrat text-2xl font-bold">Чудесные травы&nbsp;и приятное
+                            общение</p>
+                        <div class="grid grid-cols-4 gap-4 auto-rows-min mt-4">
+                            <div class="col-span-3 text-sm  font-montserrat">Ольга, благодарю вас за&nbsp;чудесные травы
+                                и&nbsp;приятное общение!
+                                Как приятно было получить такую посылку! Все аккуртано упаковано
+                                и&nbsp;оформлено, и&nbsp;еще подарочек положили! Процветания вашему делу и&nbsp;добрых
+                                покупателей!</div>
+                            <div class="col-span-1 self-end text-xs  font-montserrat font-semibold">Александра</div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="font-montserrat text-2xl font-bold">2 - Чудесные травы&nbsp;и приятное
+                            общение</p>
+                        <div class="grid grid-cols-4 gap-4 auto-rows-min mt-4">
+                            <div class="col-span-3 text-sm  font-montserrat">2 - Ольга, благодарю вас за&nbsp;чудесные травы
+                                и&nbsp;приятное общение!
+                                Как приятно было получить такую посылку! Все аккуртано упаковано
+                                и&nbsp;оформлено, и&nbsp;еще подарочек положили! Процветания вашему делу и&nbsp;добрых
+                                покупателей!</div>
+                            <div class="col-span-1 self-end text-xs  font-montserrat font-semibold">Александра</div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-span-4">space</div>
+                </div>
+                <div class="col-span-4">&nbsp;</div>
             </div>
         </section>
 
         <section class="px-section grid grid-cols-12 gap-0 bg-champagne h-[140px] mt-[130px] items-center">
-            <div class="col-span-3">space</div>
+            <div class="col-span-3">&nbsp;</div>
             <div class="col-span-3">Давайте пить чай и быть в курсе наших последних новостей!</div>
-            <div class="col-span-3"><input type='text' class="w-full" /></div>
-            <div class="col-span-2">space</div>
-            <div class="col-span-1">space</div>
+            <div class="col-span-3"><input type='text' class="w-full h-[40px] rounded-l-md" placeholder="E-mail" />
+            </div>
+            <div class="col-span-2"><button
+                    class="bg-chalet-green w-full h-[40px] text-champagne rounded-r-md text-sm  font-montserrat font-semibold">Подписаться</button>
+            </div>
+            <div class="col-span-1">&nbsp;</div>
         </section>
 
         <section class="px-section grid grid-cols-12 gap-4 bg-chalet-green h-[520px] =auto-rows-min items-center">
@@ -446,6 +488,7 @@
 
     </div>
     <script src="./dist/app-bundle.js"></script>
+    <!--script>new Vivus('logo-svg', { duration: 200 }, ()=>{});</script-->
 
     <!--<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script> -->
 </body>
